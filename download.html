@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下载 - 南阳触摸修复工具</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #0f1729 0%, #1a2744 50%, #0f1729 100%);
+            color: #e8eef7;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 40px 20px; }
+        header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #5B96F0, #39C988);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+        }
+        .nav { display: flex; justify-content: center; gap: 20px; margin-top: 20px; }
+        .nav a {
+            color: #5B96F0; text-decoration: none; font-size: 14px;
+            padding: 6px 16px; border: 1px solid #5B96F0; border-radius: 16px;
+            transition: all .2s;
+        }
+        .nav a:hover { background: #5B96F0; color: #fff; }
+        .card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 28px;
+            margin: 24px 0;
+            backdrop-filter: blur(10px);
+            transition: transform .2s, border-color .2s;
+        }
+        .card:hover { transform: translateY(-2px); border-color: #5B96F0; }
+        .card-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+        .card-icon { font-size: 36px; }
+        .card-title { flex: 1; }
+        .card-title h2 { font-size: 22px; color: #fff; }
+        .card-title p { color: #9fb3cc; font-size: 13px; margin-top: 4px; }
+        .badge {
+            display: inline-block; padding: 3px 12px; border-radius: 12px;
+            font-size: 12px; font-weight: 600;
+        }
+        .badge-blue { background: #5B96F0; color: #fff; }
+        .badge-orange { background: #F1B34A; color: #1a1a1a; }
+        .card-info { display: flex; gap: 24px; margin: 16px 0; flex-wrap: wrap; }
+        .info-item { color: #b5c0ce; font-size: 13px; }
+        .info-item strong { color: #fff; }
+        .btn {
+            display: inline-block; padding: 12px 32px; border-radius: 10px;
+            font-size: 15px; font-weight: 600; text-decoration: none;
+            transition: all .2s; border: none; cursor: pointer;
+        }
+        .btn-primary { background: #5B96F0; color: #fff; }
+        .btn-primary:hover { background: #3D7AE6; }
+        .btn-secondary { background: rgba(255,255,255,0.08); color: #fff; border: 1px solid rgba(255,255,255,0.2); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+        .net-runtime {
+            background: rgba(241,179,74,0.08);
+            border: 1px solid rgba(241,179,74,0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .net-runtime h3 { color: #F1B34A; font-size: 16px; margin-bottom: 10px; }
+        .net-runtime p { color: #d4c5a0; font-size: 13px; margin-bottom: 12px; }
+        footer { text-align: center; padding: 40px 20px; color: #6b7480; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>下载中心</h1>
+            <p style="color:#9fb3cc; margin-top:8px;">选择适合您的版本下载</p>
+            <div class="nav">
+                <a href="index.html">首页</a>
+                <a href="download.html">下载</a>
+                <a href="https://github.com/Yang1235744/nanyang-touch-repair" target="_blank">GitHub</a>
+            </div>
+        </header>
+
+        <!-- 普通版 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">🟦</div>
+                <div class="card-title">
+                    <h2>南阳触摸修复工具 <span class="badge badge-blue">普通版</span></h2>
+                    <p>必应每日风景壁纸 · 持续更新 · 最新功能</p>
+                </div>
+            </div>
+            <div class="card-info">
+                <div class="info-item"><strong>版本：</strong>v1.0.7</div>
+                <div class="info-item"><strong>大小：</strong>约 61 MB（zip）</div>
+                <div class="info-item"><strong>系统：</strong>Win10/11 x64</div>
+                <div class="info-item"><strong>运行时：</strong>已内嵌 .NET 10</div>
+            </div>
+            <p style="color:#b5c0ce; font-size:13px; margin-bottom:16px;">
+                更新日志：安卓环境静默沙盒模式 · 必应壁纸修复 · 雷电模拟器14支持 · 多镜像更新源
+            </p>
+            <a href="downloads/南阳触摸修复工具-v1.0.7.zip" class="btn btn-primary">⬇ 下载普通版</a>
+        </div>
+
+        <!-- Furry 特别版 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">🟧</div>
+                <div class="card-title">
+                    <h2>南阳触摸修复工具 <span class="badge badge-orange">Furry版</span></h2>
+                    <p>Furry 主题壁纸 · 功能锁定 · 不再更新</p>
+                </div>
+            </div>
+            <div class="card-info">
+                <div class="info-item"><strong>版本：</strong>v1.0.7</div>
+                <div class="info-item"><strong>大小：</strong>约 61 MB（zip）</div>
+                <div class="info-item"><strong>系统：</strong>Win10/11 x64</div>
+                <div class="info-item"><strong>运行时：</strong>已内嵌 .NET 10</div>
+            </div>
+            <p style="color:#b5c0ce; font-size:13px; margin-bottom:16px;">
+                与普通版功能一致，仅壁纸替换为 Furry 主题（来源 e621，safe 级别）。功能已锁定，不再推送在线更新。
+            </p>
+            <a href="downloads/南阳触摸修复工具-Furry版-v1.0.7.zip" class="btn btn-secondary">⬇ 下载 Furry 版</a>
+        </div>
+
+        <!-- .NET 10 运行时 -->
+        <div class="net-runtime">
+            <h3>ℹ 关于 .NET 10 运行时</h3>
+            <p>本工具发布为<strong>单文件自包含版本</strong>，已内嵌 .NET 10 运行时，<strong>无需单独安装</strong>。</p>
+            <p>如果您下载的是非自包含版本，或运行时提示缺少 .NET，请通过以下链接安装 .NET 10 桌面运行时：</p>
+            <a href="https://dotnet.microsoft.com/download/dotnet/10.0" target="_blank" class="btn btn-secondary" style="margin-top:8px;">前往微软官网下载 .NET 10</a>
+            <p style="margin-top:12px; font-size:12px;">
+                直接下载链接（Windows x64 桌面运行时）：
+                <a href="https://dotnetcli.azureedge.net/dotnet/WindowsDesktop/10.0.0/windowsdesktop-runtime-10.0.0-win-x64.exe"
+                   target="_blank" style="color:#F1B34A; word-break:break-all;">
+                    windowsdesktop-runtime-10.0.0-win-x64.exe
+                </a>
+            </p>
+        </div>
+
+        <!-- 历史版本 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📦</div>
+                <div class="card-title">
+                    <h2>历史版本</h2>
+                    <p>访问 GitHub Releases 查看所有版本</p>
+                </div>
+            </div>
+            <a href="https://github.com/Yang1235744/nanyang-touch-repair/releases" target="_blank" class="btn btn-secondary">前往 GitHub Releases</a>
+        </div>
+    </div>
+    <footer>
+        © 2026 南阳软件 · 南阳触摸修复工具<br>
+        本工具仅供学习交流使用
+    </footer>
+</body>
+</html>

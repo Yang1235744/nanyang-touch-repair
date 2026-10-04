@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南阳触摸修复工具 - 官方网站</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #0f1729 0%, #1a2744 50%, #0f1729 100%);
+            color: #e8eef7;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 60px 20px; }
+        header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #5B96F0, #39C988);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+        }
+        header p { font-size: 16px; color: #9fb3cc; max-width: 600px; margin: 0 auto; }
+        .nav { display: flex; justify-content: center; gap: 24px; margin-top: 32px; }
+        .nav a {
+            color: #5B96F0; text-decoration: none; font-size: 15px;
+            padding: 8px 20px; border: 1px solid #5B96F0; border-radius: 20px;
+            transition: all .2s;
+        }
+        .nav a:hover { background: #5B96F0; color: #fff; }
+        .section {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px 0;
+            backdrop-filter: blur(10px);
+        }
+        .section h2 { font-size: 24px; color: #fff; margin-bottom: 16px; }
+        .section h3 { font-size: 18px; color: #5B96F0; margin: 20px 0 10px; }
+        .section p { color: #b5c0ce; margin-bottom: 12px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 16px; }
+        .feature {
+            background: rgba(0,0,0,0.2); border-radius: 12px; padding: 20px;
+            border-left: 3px solid #5B96F0;
+        }
+        .feature h4 { color: #fff; font-size: 15px; margin-bottom: 8px; }
+        .feature p { color: #9fb3cc; font-size: 13px; margin: 0; }
+        .badge {
+            display: inline-block; padding: 2px 10px; border-radius: 10px;
+            font-size: 12px; font-weight: 600;
+        }
+        .badge-blue { background: #5B96F0; color: #fff; }
+        .badge-green { background: #39C988; color: #fff; }
+        .badge-orange { background: #F1B34A; color: #1a1a1a; }
+        footer { text-align: center; padding: 40px 20px; color: #6b7480; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>南阳触摸修复工具</h1>
+            <p>面向教学一体机、各类杂牌一体机的触摸修复解决方案<br>Win10/11 升级后触摸异常一键修复 · 触摸校准 · 安卓环境沙盒</p>
+            <div class="nav">
+                <a href="index.html">首页</a>
+                <a href="download.html">下载</a>
+                <a href="https://github.com/Yang1235744/nanyang-touch-repair" target="_blank">GitHub</a>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>核心功能</h2>
+            <div class="features">
+                <div class="feature">
+                    <h4>🛠 一键修复触摸</h4>
+                    <p>注册表修复 + 低级鼠标钩子，解决单点无效、需滑动触发、点击多次才响应等 Win10/11 触摸故障</p>
+                </div>
+                <div class="feature">
+                    <h4>🎯 触摸校准</h4>
+                    <p>调用系统 TabletPC 校准面板，重新校正触摸坐标偏移</p>
+                </div>
+                <div class="feature">
+                    <h4>📱 安卓环境沙盒</h4>
+                    <p>自动检测雷电模拟器，静默运行安卓应用，安装 APK 并创建桌面快捷方式</p>
+                </div>
+                <div class="feature">
+                    <h4>↩ 触摸恢复</h4>
+                    <p>撤销所有修复项，恢复系统默认触摸行为</p>
+                </div>
+                <div class="feature">
+                    <h4>🎨 UI 自定义</h4>
+                    <p>主题色自定义、必应每日壁纸（普通版）/ Furry 壁纸（特别版）</p>
+                </div>
+                <div class="feature">
+                    <h4>🔄 自动更新</h4>
+                    <p>普通版支持 GitHub 在线更新，多镜像源回退保障网络稳定</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>版本选择</h2>
+            <h3>🟦 普通版 <span class="badge badge-blue">持续更新</span></h3>
+            <p>必应每日风景壁纸，功能持续迭代更新。适合需要最新功能的用户。</p>
+            <h3>🟧 Furry 特别版 <span class="badge badge-orange">功能锁定</span></h3>
+            <p>壁纸替换为 Furry 主题（来源 e621，safe 级别），功能已锁定不再推送更新。仅壁纸主题不同。</p>
+        </div>
+
+        <div class="section">
+            <h2>系统要求</h2>
+            <p>• Windows 10 / Windows 11（64 位）</p>
+            <p>• .NET 10 运行时（单文件版已内嵌，无需单独安装）</p>
+            <p>• 触摸修复功能需要管理员权限</p>
+            <p>• 安卓环境需要 CPU 支持虚拟化且 BIOS 已开启 VT-x</p>
+        </div>
+    </div>
+    <footer>
+        © 2026 南阳软件 · 南阳触摸修复工具<br>
+        本工具仅供学习交流使用
+    </footer>
+</body>
+</html>
