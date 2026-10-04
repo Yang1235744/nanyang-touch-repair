@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "releaseDate": "2026-10-04",
-  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe?v=1.0.3",
-  "fileSize": 69752813,
-  "releaseNotes": "1. 修复已知bug\n2. 新增必应每日壁纸功能，UI背景自动替换为必应当日壁纸\n3. 标题栏新增「换壁纸」按钮，可手动随机更换必应近8天内壁纸\n4. 壁纸缓存到本地，同一日内启动直接复用，不重复下载\n5. 修复更新检测：改用GitHub API获取版本信息，绕过CDN缓存导致的检测不到更新问题"
+  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe?v=1.0.4",
+  "fileSize": 69754861,
+  "releaseNotes": "1. 修复已知bug\n2. 新增必应每日壁纸功能，UI背景自动替换为必应当日壁纸\n3. 标题栏新增「换壁纸」按钮，可手动随机更换必应近8天内壁纸\n4. 壁纸缓存到本地，同一日内启动直接复用，不重复下载\n5. 修复更新检测：改用GitHub API获取版本信息，绕过CDN缓存导致的检测不到更新问题\n6. 新增多源镜像回退：直连GitHub失败(502/超时)时自动切换国内代理镜像，保证网络不稳定也能更新"
 }
