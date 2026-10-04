@@ -1,7 +1,7 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "releaseDate": "2026-10-04",
-  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe?v=1.0.6",
-  "fileSize": 69758957,
-  "releaseNotes": "1. 修复必应壁纸更换不了的bug\n2. 新增雷电模拟器14完整支持：自动检测任意安装路径（注册表+全盘扫描）\n3. 安装APK改用ldconsole installapp命令，支持雷电安卓14环境\n4. 启动APP改用ldconsole runapp按包名启动\n5. 安装前自动检测并启动雷电模拟器，无需手动操作\n6. 桌面快捷方式适配雷电命令行参数"
+  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe?v=1.0.7",
+  "fileSize": 69760493,
+  "releaseNotes": "1. 安卓环境改为静默沙盒模式：启动雷电时自动隐藏其窗口，用户看不到模拟器界面\n2. 安卓环境全程在后台运行，安装/启动APK均通过ldconsole命令行静默执行\n3. 修复必应壁纸更换不了的bug\n4. 新增雷电模拟器14完整支持（自动检测任意安装路径）\n5. 桌面快捷方式适配雷电命令行参数"
 }
