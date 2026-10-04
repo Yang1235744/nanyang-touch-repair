@@ -1,0 +1,7 @@
+{
+  "version": "1.0.1",
+  "releaseDate": "2026-10-04",
+  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe",
+  "fileSize": 69731309,
+  "releaseNotes": "1. 修复导航按钮触摸不命中问题\n2. 重做安卓环境为沙盒启动器，支持APK安装、图标提取、桌面快捷方式\n3. 设置开关立即生效（触摸钩子启停、主题色实时应用）\n4. 检测更新改为真实联网检查GitHub版本\n5. 新增触摸恢复功能，可撤销所有修复项恢复初始状态\n6. 所有功能页面改为独立窗口弹出，触摸操作正常"
+}
