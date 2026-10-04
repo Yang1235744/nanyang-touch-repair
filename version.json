@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "releaseDate": "2026-10-04",
-  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe?v=1.0.5",
-  "fileSize": 69755373,
-  "releaseNotes": "1. 修复必应壁纸更换不了的bug（WPF URI缓存导致新图不刷新，改用StreamSource强制从磁盘读取）\n2. 手动更换壁纸排除上次用过的图片，避免连续重复\n3. 备用随机图源增加随机seed，确保每次更换都不同\n4. 壁纸来源以必应每日风景壁纸为主"
+  "downloadUrl": "https://raw.githubusercontent.com/Yang1235744/nanyang-touch-repair/main/%E5%8D%97%E9%98%B3%E8%A7%A6%E6%91%B8%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe?v=1.0.6",
+  "fileSize": 69758957,
+  "releaseNotes": "1. 修复必应壁纸更换不了的bug\n2. 新增雷电模拟器14完整支持：自动检测任意安装路径（注册表+全盘扫描）\n3. 安装APK改用ldconsole installapp命令，支持雷电安卓14环境\n4. 启动APP改用ldconsole runapp按包名启动\n5. 安装前自动检测并启动雷电模拟器，无需手动操作\n6. 桌面快捷方式适配雷电命令行参数"
 }
